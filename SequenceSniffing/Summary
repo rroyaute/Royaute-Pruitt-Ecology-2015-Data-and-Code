@@ -1,0 +1,14 @@
+Duplicated sequence detection using sequenceSniffer shiny app developed by Anne Rutten (https://github.com/alrutten/sequenceSniffer).
+
+Each folder contains:
+- the raw data file (transformed into wide or long format when judged useful)
+- Pdf report of highlighting sequence duplications and randomization tests
+- Excel file highlighting duplicated sequences exported from the sequenceSniffer app (not done when tests indicates duplications are not more likely than randomized samples)
+
+Summary of findings:
+- 3 out of 6 columns in the Mesocosm dataset have > 30 % duplications 
+-  6 out of 8 columns in the Pardosa mesocosm activity dataset with 49 % or more duplicated values
+- 2 rows > 66 % duplicated when transforming the Pardosa mesocosm activity dataset into wide format
+- No duplication rows found in the Pardosa repeatability dataset
+- Some duplications found in the cannibalism dataset, but likely due to low range of data 
+- Some duplications found in the single predator-single prey dataset, but most likely due to low range of data for activity and binary data for capture
